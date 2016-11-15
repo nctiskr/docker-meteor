@@ -28,4 +28,6 @@ RUN npm install -g DanielDent/demeteorizer#v2.1.0 \
 VOLUME /app
 WORKDIR /app
 EXPOSE 3000
+CMD [ "meteor create muzo" ]
+WORKDIR /muzo
 CMD [ "meteor" ]
